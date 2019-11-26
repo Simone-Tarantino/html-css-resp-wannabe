@@ -70,22 +70,56 @@ img{
   body {
     font-size: 25px;
   }
+
   img {
     height: 100px;
   }
+
   .row {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0;
   }
+
+  /* BLOCCO LEZIONI */
+
   #lezioni .row > .left, #lezioni .row > .right {
     width: 100%;
   }
+
   #lezioni .row .right img:first-child {
-    margin-top: 50px;
+    margin-top: 25px;
   }
+
+  #lezioni .row > .clear {
+    margin-bottom: 50px;
+  }
+
+  /* BLOCCO STEPS */
+
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right {
     width: 100%;
+  }
+
+  #steps .row .central img,
+  #steps .row .right img {
+    margin-top: 25px;
+  }
+
+  /* BLOCCO PERCHE */
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #why .row img {
+    height: 80px;
+    background-color:#428bca;
+    border-radius:50%;
+    padding:10px
   }
 }
